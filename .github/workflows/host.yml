@@ -26,6 +26,6 @@ jobs:
 
       - name: Start Discord Bot
         env:
-          DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
+          DISCORD_TOKEN: ${{ secrets.MTQzNTYyODYwNjQ2MTA1MDk1Mg.GkGRha.iea6KuX9kE2UXx_izjiab5tfq9hoPyccN-qp3c }}
         run: |
-          python ./bot.py
+          python3 bot.py
